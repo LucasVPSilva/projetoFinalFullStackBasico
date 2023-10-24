@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+}
+
+.hero {
+  background-image: url("../image/banner-initial.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text-header {
+  font-size: 4rem !important;
+}
+
+.btn-color {
+  background-color: #e50914;
+  padding: 20px 30px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 200px;
+}
+
+.btn-color:hover {
+  background-color: #901017;
+}
+
+.accordion-button {
+  background-color: #303030 !important;
+  color: #ffffff !important;
+}
+
+.accordion-button::after {
+  background-image: url(../image/add.svg) !important;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+.accordion-flush .accordion-collapse {
+  border-width: 0;
+}
