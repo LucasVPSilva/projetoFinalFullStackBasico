@@ -33,6 +33,10 @@ body {
   color: #ffffff !important;
 }
 
+.accordion-item {
+  border: 5px solid black;
+}
+
 .accordion-button::after {
   background-image: url(../image/add.svg) !important;
 }
@@ -44,4 +48,25 @@ a {
 
 .accordion-flush .accordion-collapse {
   border-width: 0;
+}
+
+/* CSS da página 2 */
+
+.img-background {
+  background: url(../image/growcast-01.png) center top/cover no-repeat;
+  min-height: 720px;
+}
+
+.display-text {
+  align-items: flex-end;
+  min-height: 680px;
+}
+
+.col-movie:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.link-growcast:hover {
+  color: orange !important;
 }
