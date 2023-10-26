@@ -4,78 +4,71 @@ const contentCardsUxUi = document.getElementById('cards-uxui')
 const contentCardsDiversos = document.getElementById('cards-diversos')
 
 
+
 const cardsYoutube = [
     {
-        image: 'https://img.youtube.com/vi/aJ-HZuLcKeA/sddefault.jpg',
-        title: 'Growcast #00',
-        link: 'https://www.youtube.com/embed/aJ-HZuLcKeA',
-        category: 'growcast',
-
+        image: "https://img.youtube.com/vi/aJ-HZuLcKeA/sddefault.jpg",
+        title: "Growcast #00 - Conheça a Growdev",
+        link: "https://www.youtube.com/embed/aJ-HZuLcKeA",
+        category: "growcast",
     },
     {
-        image: 'https://img.youtube.com/vi/7OWT3lfHYvE/sddefault.jpg',
-        title: 'Growcast #01',
-        link: 'https://www.youtube.com/embed/7OWT3lfHYvE',
-        category: 'growcast',
-
+        image: "https://img.youtube.com/vi/7OWT3lfHYvE/sddefault.jpg",
+        title: "Growcast #01 - As profissões do futuro",
+        link: "https://www.youtube.com/embed/7OWT3lfHYvE",
+        category: "growcast",
     },
     {
-        image: 'https://img.youtube.com/vi/ci1eQGPK89o/sddefault.jpg',
-        title: 'Growcast #02',
-        link: 'https://www.youtube.com/embed/ci1eQGPK89o',
-        category: 'growcast',
-
+        image: "https://img.youtube.com/vi/ci1eQGPK89o/sddefault.jpg",
+        title: "Growcast #02 - Como seguir a carreira internacional?",
+        link: "https://www.youtube.com/embed/ci1eQGPK89o",
+        category: "growcast",
     },
     {
-        image: 'https://img.youtube.com/vi/WM7pGG7OicQ/sddefault.jpg',
-        title: 'Growcast #03',
-        link: 'https://www.youtube.com/embed/WM7pGG7OicQ',
-        category: 'growcast',
-
+        image: "https://img.youtube.com/vi/WM7pGG7OicQ/sddefault.jpg",
+        title: "Growcast #03 - Superando os desafios da carreira de Dev!",
+        link: "https://www.youtube.com/embed/WM7pGG7OicQ",
+        category: "growcast",
     },
     {
-        image: 'https://img.youtube.com/vi/2c8VOBZ160Y/sddefault.jpg',
-        title: 'Growcast #04',
-        link: 'https://www.youtube.com/embed/2c8VOBZ160Y',
-        category: 'growcast',
-
+        image: "https://img.youtube.com/vi/2c8VOBZ160Y/sddefault.jpg",
+        title: "Growcast #04 - Agile Master: tudo sobre a profissão!",
+        link: "https://www.youtube.com/embed/2c8VOBZ160Y",
+        category: "growcast",
     },
     {
-        image: 'https://img.youtube.com/vi/mxnEm03cYPc/sddefault.jpg',
-        title: 'Growcast #05',
-        link: 'https://www.youtube.com/embed/mxnEm03cYPc',
-        category: 'growcast',
-
+        image: "https://img.youtube.com/vi/mxnEm03cYPc/sddefault.jpg",
+        title:
+            "Growcast #5 - Como iniciar na carreira em Desenvolvimento de Softwares?",
+        link: "https://www.youtube.com/embed/mxnEm03cYPc",
+        category: "growcast",
     },
     {
-        image: 'https://img.youtube.com/vi/m7DyR07KrOE/sddefault.jpg',
-        title: 'Growcast #06',
-        link: 'https://www.youtube.com/embed/m7DyR07KrOE',
-        category: 'growcast',
-
+        image: "https://img.youtube.com/vi/m7DyR07KrOE/sddefault.jpg",
+        title: "Growcast #06 - Mulheres e inclusão na tecnologia",
+        link: "https://www.youtube.com/embed/m7DyR07KrOE",
+        category: "growcast",
     },
     {
-        image: 'https://img.youtube.com/vi/vW8G9KPwRL0/sddefault.jpg',
-        title: 'Growcast #07',
-        link: 'https://www.youtube.com/embed/vW8G9KPwRL0',
-        category: 'growcast',
-
+        image: "https://img.youtube.com/vi/vW8G9KPwRL0/sddefault.jpg",
+        title: "Growcast #07 - Desenvolvendo profissionais na área de TI",
+        link: "https://www.youtube.com/embed/vW8G9KPwRL0",
+        category: "growcast",
     },
     {
-        image: 'https://img.youtube.com/vi/_Ut2KqAqPyk/sddefault.jpg',
-        title: 'Growcast #08',
-        link: 'https://www.youtube.com/embed/_Ut2KqAqPyk',
-        category: 'growcast',
-
+        image: "https://img.youtube.com/vi/_Ut2KqAqPyk/sddefault.jpg",
+        title:
+            "Growcast #8 - A solução que está transformando o mercado de TI no Brasil",
+        link: "https://www.youtube.com/embed/_Ut2KqAqPyk",
+        category: "growcast",
     },
     {
-        image: 'https://img.youtube.com/vi/dfDgs0Ive2Q/sddefault.jpg',
-        title: 'Growcast #09',
-        link: 'https://www.youtube.com/embed/dfDgs0Ive2Q',
-        category: 'growcast',
-
+        image: "https://img.youtube.com/vi/dfDgs0Ive2Q/sddefault.jpg",
+        title:
+            "Growcast #9 - Acompanhe com quem realmente entende, tudo sobre o mercado de trabalho no mundo da TI",
+        link: "https://www.youtube.com/embed/dfDgs0Ive2Q",
+        category: "growcast",
     },
-
     {
         image: "https://img.youtube.com/vi/WKbLXuP9S-c/sddefault.jpg",
         title: "Webinar - Recriando a interface do Linkedin com Flutter",
@@ -185,25 +178,62 @@ const videosDivGrowcast = document.createElement('div');
 videosDivGrowcast.classList.add('row');
 
 
-videoGrowcast.forEach(card => {
+
+videoGrowcast.forEach((card, index) => {
 
 
 
     const videosCard = document.createElement('div');
-    videosCard.classList.add('col-12', 'col-sm-6', 'col-md-3', 'col-movie');
+    videosCard.classList.add('video-card', 'col-12', 'col-sm-6', 'col-md-3', 'col-movie');
 
     videosCard.innerHTML = `
+       
                 <img
               src="${card.image}"
               class="img-fluid"
               alt=""
             />
-    `
+            <div class="video-card">
+            <p class="video-name text-light">
+             <a href="${card.link}" class="text-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-play-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"></path>
+                </svg>
+               <span class="p-4">${card.title}</span>
+              </a>
+              <button type="button" class="btn btn-primary botaozin" data-bs-toggle="modal" data-bs-target="#exampleModal-${index}">
+                Launch demo modal
+              </button>
+
+            </p>
+        
+
+
+        <!-- Modal -->
+            <div class="modal fade" id="exampleModal-${index}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="ratio ratio-21x9" id="iframe-preview">
+                    <iframe width="1353" height="580" src="${card.link}" title="Growcast #00 | Conheça a Growdev" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>    
+]
+                 </div>
+            </div>
+            </div>
+  
+           
+    `;
 
     videosDivGrowcast.appendChild(videosCard)
 
 
 })
+
 contentCardsGrowCast.appendChild(videosDivGrowcast)
 
 
@@ -280,3 +310,5 @@ videoDiversos.forEach(card => {
 
 })
 contentCardsDiversos.appendChild(videosDiversos)
+
+
